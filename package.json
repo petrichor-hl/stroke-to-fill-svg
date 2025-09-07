@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "fix": "node node_modules/oslllo-svg-fixer/src/cli.js --source ./stroke-based-icons --destination ./fixed-svgs --strict-destination false --show-progress"
+  },
+  "devDependencies": {
+    "oslllo-svg-fixer": "https://github.com/oslllo/svg-fixer"
+  }
+}
